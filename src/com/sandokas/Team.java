@@ -1,5 +1,11 @@
 package com.sandokas;
 
 public class Team {
-	String name;
+	private String name;
+	public String getName() {
+		return name;
+	}
+	Team(String teamName) {
+		name = teamName;
+	}
 }
