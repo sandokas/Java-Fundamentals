@@ -1,4 +1,4 @@
-package com.sandokas;
+package com.sandokas.championship;
 
 import java.util.ArrayList;
 

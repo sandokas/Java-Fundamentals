@@ -1,4 +1,5 @@
-package com.sandokas;
+package com.sandokas.championship;
+
 
 public class Game {
 	private Team team1;
