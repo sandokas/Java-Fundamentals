@@ -18,8 +18,9 @@ public class HelloWorld {
 	
 	public static void main(String ... args) {
 		System.out.println("First line");
-		//Manager m = new Manager();
+		Employee e = new Manager();
 		
+		//e.lixo(new Manager());
 	}
 	/*
 	void probe(Integer x) { System.out.println("In Integer"); } //2 
@@ -104,7 +105,7 @@ public class HelloWorld {
 			}
 		}*/
 	}
-public static void backup() {
+	public static void backup() {
 	int k = 0; 
 	int m = 0; 
 	for ( int i = 0; i <= 3; i++){ 
