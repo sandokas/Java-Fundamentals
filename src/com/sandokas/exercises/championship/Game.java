@@ -1,4 +1,6 @@
-package com.sandokas.championship;
+package com.sandokas.exercises.championship;
+
+import java.util.HashMap;
 
 
 public class Game {
@@ -30,5 +32,17 @@ public class Game {
 	}
 	public boolean setReported() {
 		return reported;
+	}
+	public int getScoreTeam1 () {
+		return score1;
+	}
+	public int getScoreTeam2() {
+		return score2;
+	}
+	public Team getTeam1 () {
+		return team1;
+	}
+	public Team getTeam2() {
+		return team2;
 	}
 }

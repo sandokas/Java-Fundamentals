@@ -1,4 +1,4 @@
-package com.sandokas.championship;
+package com.sandokas.exercises.championship;
 
 public class Team {
 	private String name;
