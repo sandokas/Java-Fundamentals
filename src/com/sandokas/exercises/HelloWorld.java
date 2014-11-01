@@ -2,8 +2,10 @@ package com.sandokas.exercises;
 
 import java.util.ArrayList;
 
+import com.sandokas.exercises.inheritance.ElectronicDevice;
 import com.sandokas.exercises.inheritance.Employee;
 import com.sandokas.exercises.inheritance.Manager;
+import com.sandokas.exercises.inheritance.Television;
 
 /*
 interface Side { String getSide(); }
@@ -17,8 +19,15 @@ class Tail implements Side {
 public class HelloWorld {
 	
 	public static void main(String ... args) {
-		System.out.println("First line");
-		Employee e = new Manager();
+		
+		ElectronicDevice e = new Television("Samsung");
+		//Television t = (Television) e;
+		//t._manufacturer = "Pioneer";
+		System.out.println("ElectronicDevice manufacturer: " + e.getManufacturer());
+		
+		
+		//System.out.println("First line");
+		//Employee e = new Manager();
 		
 		//e.lixo(new Manager());
 	}
